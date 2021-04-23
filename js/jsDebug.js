@@ -3,11 +3,11 @@ function language() {
     if (idioma == 'ES') {
         window.location.href = '../index.html'
     } else if (idioma == 'RUS') {
-        window.location.href = './ruso/index.html'
+        window.location.href = '../ruso/index.html'
     } else if (idioma == 'ARA') {
-        window.location.href = './arabe/index.html'
+        window.location.href = '../arabe/index.html'
     } else {
-        window.location.href = './cat/index.html'
+        window.location.href = '../cat/index.html'
     }
 
 }

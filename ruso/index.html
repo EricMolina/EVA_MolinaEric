@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/jsDebug.js"></script>
+    <script src="https://kit.fontawesome.com/fa2f18e192.js" crossorigin="anonymous"></script>
+    <title>ева</title>
+    <link rel="icon" type="image/png" href="../img/code-solid.svg">
+
+</head>
+
+<body>
+    <header id="Header">
+        <div class="Column-1">
+            <h1>Объяснение стили: Адаптивный веб-код</h1>
+            <i class="fas fa-laptop-code fa-4x" id="icon_header"></i>
+
+        </div>
+    </header>
+    <ul>
+        <li><a href="#Section-5">Медиа-запрос</a></li>
+        <li><a href="#Section-3">Область просмотра</a></li>
+        <li><a href="#Section-1">Отзывчивый</a></li>
+        <li>
+            <a href="#Header" class="fas fa-arrow-up"></a>
+        </li>
+
+    </ul>
+    <div id="Section-1">
+        <div class="Column-1" id="Section1text">
+            <h2>Учебное пособие по стили: Отзывчивый веб-код</h2>
+        </div>
+        <div class="Section1video">
+            <iframe src="https://www.youtube.com/embed/abe1QaIlu5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="Section-2">
+        <div class="Column-2 GrayBackGroundAll">
+            <div class="GrayBG GrayBackGroundAll">
+                <h2>Адаптивный веб-код</h2>
+                <h3>Адаптивный веб-дизайн - это создание веб-страниц, которые подходят и хорошо выглядят на всех устройствах.
+                </h3>
+            </div>
+        </div>
+        <div class="Column-2 GrayBackGroundAll">
+            <div class="imgPadding">
+                <img class="BorderRadius" src="../img/responsive.png" alt="Movil representativo">
+            </div>
+        </div>
+    </div>
+    <div id="Section-3">
+        <div class="Column-2">
+            <div class="imgPadding">
+                <img class="BorderRadius" src="../img/viewport.png" alt="Movil representativo">
+            </div>
+        </div>
+        <div class="Column-2">
+            <div class="GrayBG">
+                <h2>Окно просмотра</h2>
+                <h3>Область просмотра - один из наиболее представительных тегов мобильного Интернета, который позволяет нам настраивать, как браузер интерпретирует мобильную веб-страницу.</h3>
+            </div>
+        </div>
+    </div>
+    <div id="Section-4">
+        <div class="Column-2 GrayBackGroundAll">
+            <div class="GrayBG GrayBackGroundAll">
+                <h2>Как это работает и как это применять</h2>
+                <h3>Добавив тег область просмотра, веб-страница будет адаптироваться к разрешению экрана.<br><br>meta name="viewport" content="width=device-width, initial-scale=1.0</h3>
+            </div>
+        </div>
+        <div class="Column-2 GrayBackGroundAll">
+            <div class="imgPadding">
+                <img class="BorderRadius" src="../img/viewportUsar.png" alt="Movil representativo">
+            </div>
+        </div>
+    </div>
+    <div id="Section-5">
+        <div class="Column-2">
+            <div class="imgPadding">
+                <img class="BorderRadius" src="../img/mediaquery.png" alt="Movil representativo">
+            </div>
+        </div>
+        <div class="Column-2">
+            <div class="GrayBG">
+                <h2>Медиа-запрос</h2>
+                <h3>Правила, введенные в стили для определения размеров объектов, чтобы они применялись на экранах разных размеров.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div id="Section-6">
+        <div class="Column-2 GrayBackGroundAll">
+            <div class="GrayBG GrayBackGroundAll">
+                <h2>Как это работает и как это применять</h2>
+                <h3>Добавляя стили в стили, мы изменяем стили в соответствии со значениями, которые мы пишем.<br>@media screen and (max-width: 225px){<br>.contenido {<br>background-color: #FFFFFF; }</h3>
+            </div>
+        </div>
+        <div class="Column-2 GrayBackGroundAll">
+            <div class="imgPadding">
+                <img class="BorderRadius" src="../img/mediaqueryUsar.jpg" alt="Movil representativo">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="Column-2">
+            <div class="FooterPadding">
+                <h1>Выберите желаемый язык</h1>
+                <select class="button" name="language" id="language" onchange="language()">
+                    <option value="ES">Español</option>
+                    <option value="EN">Català</option>
+                    <option value="RUS"selected>русский</option>
+                    <option value="ARA">عرب</option>
+            </select>
+            </div>
+
+        </div>
+        <div class="Column-2">
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
